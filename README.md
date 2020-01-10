@@ -50,6 +50,13 @@
 4. 重启两次后将 触控板驱动 放入 kext\Other 下, 再次重启直到触控板可用
 5. 将DSDT.aml放入 ACPI\patched\ 下重启, 随后测试键盘灯, 触控板等功能
 
+## 捐赠
+
+您的支持就是我更新维护的动力!
+<br/>
+<img src="https://raw.githubusercontent.com/Jie2GG/Image/master/WeChat.png" width="260" height="350" alt="微信二维码"/>
+<img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
+
 ## 更新日志
 
 * V1.1.0
