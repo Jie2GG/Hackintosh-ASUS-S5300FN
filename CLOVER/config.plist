@@ -259,6 +259,10 @@
 				<data>
 				AAAAAw==
 				</data>
+				<key>framebuffer-flags</key>
+				<data>
+				CgujAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
@@ -274,9 +278,7 @@
 				<key>model</key>
 				<string>Intel Iris Plus Graphics 655</string>
 				<key>name</key>
-				<data>
-				AAAAAAAK
-				</data>
+				<string>Intel Iris Plus Graphics 655</string>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -405,6 +407,12 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>MLB</key>
+		<string>C02909108J90000JA</string>
+		<key>ROM</key>
+		<data>
+		QKhF71ii
+		</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
@@ -418,6 +426,8 @@
 		<string>Mac-1E7E29AD0135F9BC</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02909108J90000JA</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -446,11 +456,17 @@
 		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro15,3</string>
+		<key>SerialNumber</key>
+		<string>C02YC4ZTLVCG</string>
+		<key>SmUUID</key>
+		<string>45D53139-7523-4CA9-9DB0-FF07E2EF58A2</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
+		<key>CustomUUID</key>
+		<string>45D53139-7523-4CA9-9DB0-FF07E2EF58A2</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>

@@ -38,6 +38,11 @@
 
 - [ ] HDMI输出 (已找到总线, 但是黑屏, 等待修复)
 
+## 能工作的更好的硬件
+
+* [一键开启HiDPI (xzhih)](https://github.com/xzhih/one-key-hidpi)
+* [手动注入HiDPI (黑果小兵)](https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html)
+
 ## 关于键盘 Fn 按键的说明
 
 由于这个笔记本的键盘灯在 Windows 下只有一个按键调节, 所以在 macOS 下只能增加亮度, 所以我牺牲了 Fn+F6 (禁用触控板), 来实现降低键盘灯亮度. 所以 PrtSc 这个按键变成了禁用启用触控板的按键
@@ -58,6 +63,10 @@
 <img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
 
 ## 更新日志
+
+* V1.1.1
+
+    * 优化 FrameBuffer, 现在支持比 1440 x 810 更高的 HiDPI 分辨率 (推荐 1600 x 900)
 
 * V1.1.0
 
