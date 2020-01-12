@@ -40,8 +40,19 @@
 
 ## 能工作的更好的硬件
 
-* [一键开启HiDPI (xzhih)](https://github.com/xzhih/one-key-hidpi)
-* [手动注入HiDPI (黑果小兵)](https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html)
+* 开启HiDPI
+
+    推荐开启HiDPI让屏幕显示效果更好. 建议的分辨率: <br/>
+    |实际分辨率|HiDPI分辨率|说明
+    :-:|:-:|:-:|
+    |3840 x 2160|1920 x 1080|屏幕原始分辨率, 不能解决模糊问题
+    |3200 x 1800|1600 x 900|最佳分辨率, 不花屏, 睡眠唤醒完美
+    |2880 x 1620|1440 x 810|
+    |2560 x 1440|1280 x 720|
+
+    [一键开启HiDPI (xzhih)](https://github.com/xzhih/one-key-hidpi)
+    <br/>
+    [手动注入HiDPI (黑果小兵)](https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html)
 
 ## 关于键盘 Fn 按键的说明
 
