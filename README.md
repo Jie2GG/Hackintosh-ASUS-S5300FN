@@ -43,9 +43,13 @@
 * 开启HiDPI
 
     推荐开启HiDPI让屏幕显示效果更好. 建议的分辨率: <br/>
+
+    > 使用脚本或修复工具自行添加
+
     |实际分辨率|HiDPI分辨率|说明
     :-:|:-:|:-:|
     |3840 x 2160|1920 x 1080|屏幕原始分辨率, 不能解决模糊问题
+    |3360 x 1888|1680 x 944|在我的屏幕上, 睡眠唤醒顶部有一个白条, 但进桌面后正常
     |3200 x 1800|1600 x 900|最佳分辨率, 不花屏, 睡眠唤醒完美
     |2880 x 1620|1440 x 810|
     |2560 x 1440|1280 x 720|
@@ -53,6 +57,21 @@
     [一键开启HiDPI (xzhih)](https://github.com/xzhih/one-key-hidpi)
     <br/>
     [手动注入HiDPI (黑果小兵)](https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html)
+
+    > 使用屏幕描述文件
+    
+        描述文件的分辨率如下表所示, 使用时请修改 "供应商ID" 和 "产品ID",
+        将文件修改后放入 "/System/Library/Displays/Contents/Resources/Overrides" 下重启即可
+
+    
+    |实际分辨率|HiDPI分辨率
+    :-:|:-:|
+    |3840 x 2160|1920 x 1080|
+    |3200 x 1800|1600 x 900|
+    |2880 x 1620|1440 x 810|
+    |2560 x 1440|1280 x 720|
+
+
 
 ## 关于键盘 Fn 按键的说明
 
@@ -74,6 +93,10 @@
 <img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
 
 ## 更新日志
+
+* V1.1.2
+
+    * 添加 HiDPI 描述文件
 
 * V1.1.1
 
