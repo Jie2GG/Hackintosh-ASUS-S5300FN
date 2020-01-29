@@ -1,8 +1,8 @@
 # 华硕灵耀2代 Hackintosh 相关文件
 
-这是 **Asus S5300FN** 的相关文件, 这套配置我仅在 macOS Mojave 10.14.6 和 macOS Catalina 10.15.2 上测试通过, 完美度较高.
+这是 **Asus S5300FN** 的相关文件, 这套配置我仅在 macOS Mojave 10.14.6 和 macOS Catalina 10.15.3 上测试通过, 完美度较高.
 
-⚠️️️注意: 本项目提供的 EFI 不可用于其它机型, 直接覆盖可能会导致各种问题. 建议了解 **Clover** 、 **黑苹果驱动** 、**DSDT和SSDT** 等相关知识后再使用. 安装教程再最下面, 请阅读后再自行操作! 
+⚠️️️注意: 本项目提供的 EFI 不可用于其它机型, 直接覆盖可能会导致各种问题. 建议了解 **Clover** 、**OpenCore** 、 **黑苹果驱动** 、**DSDT和SSDT** 等相关知识后再使用. 安装教程在下面, 请仔细阅读后再自行操作! 
 
 ## 硬件配置
 
@@ -80,9 +80,20 @@
 ## 安装教程 (简易版)
 
 1. 使用 etcher 将原版的镜像写入U盘
-2. 将 Clover 文件夹复制到 EFI 分区的文件夹下.
+2. 将 OpenCore 或 Clover 复制到 EFI 文件夹下
 3. 安装 macOS, 直至结束
-4. 重启两次后将 触控板驱动 放入 kext\Other 下, 再次重启直到触控板可用
+4. 将 "驱动程序" 中的两个 kext 放在桌面上, 运行以下命令激活触控板
+
+> 打开终端, 输入以下命令激活触控板
+>
+> 1. ``cd Desktop``
+> 2. ``sudo chmod -Rf 755 VoodooI2C.kext``
+> 3. ``sudo chmod -Rf 755 VoodooI2CHID.kext``
+> 4. ``sudo chown -R root:wheel VoodooI2C.kext``
+> 5. ``sudo chown -R root:wheel VoodooI2CHID.kext``
+> 6. ``sudo kextutil VoodooI2CHID.kext -d VoodooI2C.kext``
+>
+> 运行完毕后即可激活触控板, 若发现长按按键变点击, 可睡眠唤醒后恢复正常
 
 ## 捐赠
 
@@ -92,8 +103,11 @@
 <img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
 
 ## 更新日志
-
 * V1.2.0
+
+    * 新增 OpenCore 引导程序
+
+* V1.1.4
 
     * 为 DSDT 所有更改都替换为热补丁
     * 更换机型为 MBP15,4
