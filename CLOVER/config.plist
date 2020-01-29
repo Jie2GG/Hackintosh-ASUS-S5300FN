@@ -80,16 +80,130 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Fix AsRock Z390 BIOS DSDT Device(RTC) bug</string>
+					<string>change _Q0D to XQ0D</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					oAqTU1RBUwE=
+					X1EwRA==
 					</data>
 					<key>Replace</key>
 					<data>
-					oAqRCv8L//8=
+					WFEwRA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q0E to XQ0E</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwRQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwRQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q0F to XQ0F</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1EwRg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFEwRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _Q12 to XQ12</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _PRW to XPRW (Tgt: GLAN)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R0xBTg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _PRW to XPRW (Tgt: XDCI)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					WERDSQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _PRW to XPRW (Tgt: HDAS)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					SERBUw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _PRW to XPRW (Tgt: XHC)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BSVw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					WEhDXw==
 					</data>
 				</dict>
 			</array>
@@ -118,7 +232,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 applbkl=1 brcmfx-country=#a -brcmfxwowl</string>
+		<string>dart=0 nv_disable=1 applbkl=1 brcmfx-country=#a -brcmfxwowl -v</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
@@ -130,7 +244,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
-		<integer>0</integer>
+		<integer>-1</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
