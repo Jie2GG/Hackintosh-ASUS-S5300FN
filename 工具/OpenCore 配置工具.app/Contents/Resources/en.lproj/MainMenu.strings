@@ -47,6 +47,9 @@
 /* Class = "NSMenuItem"; title = "Tools"; ObjectID = "4Eq-aR-Tzb"; */
 "4Eq-aR-Tzb.title" = "Tools";
 
+/* Class = "NSButtonCell"; title = "Make transparent"; ObjectID = "4hf-lk-adQ"; */
+"4hf-lk-adQ.title" = "Make transparent";
+
 /* Class = "NSMenuItem"; title = "Quit OpenCore Configurator"; ObjectID = "4sb-4s-VLi"; */
 "4sb-4s-VLi.title" = "Quit OpenCore Configurator";
 
@@ -133,6 +136,9 @@
 
 /* Class = "NSMenuItem"; title = "Sample.plist"; ObjectID = "Gli-qs-3eC"; */
 "Gli-qs-3eC.title" = "Sample.plist";
+
+/* Class = "CocoaBindingsConnection"; ibShadowedIsNilPlaceholder = "0.8"; ObjectID = "Gr2-89-j5f"; */
+"Gr2-89-j5f.ibShadowedIsNilPlaceholder" = "0.8";
 
 /* Class = "NSMenuItem"; title = "Writing Direction"; ObjectID = "H1b-Si-o9J"; */
 "H1b-Si-o9J.title" = "Writing Direction";
@@ -326,6 +332,9 @@
 /* Class = "NSMenuItem"; title = "New"; ObjectID = "drq-uo-Unf"; */
 "drq-uo-Unf.title" = "New";
 
+/* Class = "NSTextFieldCell"; title = "Tips Window"; ObjectID = "fd6-Kc-KJr"; */
+"fd6-Kc-KJr.title" = "Tips Window";
+
 /* Class = "NSMenuItem"; title = "Scan Configurations"; ObjectID = "gDt-SB-jBP"; */
 "gDt-SB-jBP.title" = "Scan Configurations";
 
@@ -445,6 +454,9 @@
 
 /* Class = "NSMenuItem"; title = "Documentations"; ObjectID = "toU-XT-mIr"; */
 "toU-XT-mIr.title" = "Documentations";
+
+/* Class = "NSButtonCell"; title = "Keep in front"; ObjectID = "uKn-Sr-CBs"; */
+"uKn-Sr-CBs.title" = "Keep in front";
 
 /* Class = "NSMenu"; title = "OpenCore Configurator"; ObjectID = "uQy-DD-JDr"; */
 "uQy-DD-JDr.title" = "OpenCore Configurator";

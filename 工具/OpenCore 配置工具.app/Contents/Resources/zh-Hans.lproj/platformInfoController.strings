@@ -35,12 +35,6 @@
 /* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: OEM specified\nSMBIOS: BIOS Information (Type 0) — BIOS Release Date\nDescription: Firmware release date. Similar to BIOSVersion. May look like 12/08/2017."; ObjectID = "6gn-IY-sd7"; */
 "6gn-IY-sd7.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:BIOS信息（类型0） -  BIOS发布日期\n说明:固件发布日期。与BIOSVersion相似。可能看起来像12/08/2017。";
 
-/* Class = "NSSegmentedCell"; 7Vs-jv-oh8.ibShadowedLabels[0] = "Model Lookup"; ObjectID = "7Vs-jv-oh8"; */
-"7Vs-jv-oh8.ibShadowedLabels[0]" = "机型查询";
-
-/* Class = "NSSegmentedCell"; 7Vs-jv-oh8.ibShadowedLabels[1] = "Check Coverage"; ObjectID = "7Vs-jv-oh8"; */
-"7Vs-jv-oh8.ibShadowedLabels[1]" = "检查序列号有效性";
-
 /* Class = "NSTextFieldCell"; title = "Startup Power Events"; ObjectID = "7XG-zt-wiU"; */
 "7XG-zt-wiU.title" = "Startup Power Events";
 
@@ -61,6 +55,9 @@
 
 /* Class = "NSTextFieldCell"; title = "DataHub"; ObjectID = "8wz-5k-5Zd"; */
 "8wz-5k-5Zd.title" = "DataHub";
+
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "9UV-S4-eO3"; */
+"9UV-S4-eO3.title" = "生成";
 
 /* Class = "NSPopUpButton"; ibShadowedToolTip = "Type: plist string\nDefault value: Auto\nDescription: Update SMBIOS fields approach:\n• Auto — Overwrite if new size is <= than the page-aligned original and there are no issues with legacy region unlock. Create otherwise.\n• Create — Replace the tables with newly allocated EfiReservedMemoryType at AllocateMaxAddress without any fallbacks.\n• Overwrite — Overwrite existing gEfiSmbiosTableGuid and gEfiSmbiosTable3Guid data if it fits new size. Abort with unspecified state otherwise.\n• Custom — Write first SMBIOS table (gEfiSmbiosTableGuid) to gOcCustomSmbiosTableGuid to workaround firmwares overwriting SMBIOS contents at ExitBootServices. Otherwise equivalent to Create. Requires patching AppleSmbios.kext and AppleACPIPlatform.kext to read from another GUID: \"EB9D2D31\" -> \"EB9D2D35\" (in ASCII)."; ObjectID = "9o2-8y-dq6"; */
 "9o2-8y-dq6.ibShadowedToolTip" = "AUTO--通常使用Auto(自动)或Create(创建即可--(推荐Auto)\nCustom--Dell机器应选择Custom(自定义)\nOverWrite(覆盖)--覆盖现有的SmbiosTableGUID数据(不推荐)-如果当SmbiosTableGUID覆盖过程中无法匹配新的大小则操作会被终止而导致SMBIOS数据注入失败，引导时无法绕过兼容性检查出现开机禁行--报错 ：This Version of MacOS X is not Supported on this Platform";
@@ -111,7 +108,7 @@
 "Hjz-kh-KPV.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1） - 版本\n描述:产品迭代版本号。可能看起来像1.1";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "IJO-Va-YDO"; */
-"IJO-Va-YDO.ibShadowedToolTip" = "从plist\n默认值添加或删除此部分:添加";
+"IJO-Va-YDO.ibShadowedToolTip" = "从plist添加或删除此部分:\n默认值:添加";
 
 /* Class = "NSButtonCell"; title = "Add this section in config.plist"; ObjectID = "IqG-Mw-D8N"; */
 "IqG-Mw-D8N.title" = "在config.plist里添加此部分内容";
@@ -146,11 +143,17 @@
 /* Class = "NSTextFieldCell"; title = "Release Date"; ObjectID = "Lof-UF-S84"; */
 "Lof-UF-S84.title" = "Release Date";
 
+/* Class = "NSButtonCell"; title = "Generate"; ObjectID = "MRn-KI-kxS"; */
+"MRn-KI-kxS.title" = "生成";
+
 /* Class = "NSTextFieldCell"; title = "Serial Number"; ObjectID = "MW7-wk-hds"; */
 "MW7-wk-hds.title" = "Serial Number";
 
 /* Class = "NSTextField"; ibShadowedToolTip = "Type: plist string\nDefault value: Not installed\nDescription: Specifies the value of NVRAM variable 4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_BID."; ObjectID = "MpC-g9-pKJ"; */
-"MpC-g9-pKJ.ibShadowedToolTip" = "默认值:未安装\n描述:指定NVRAM变量4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_BID的值。";
+"MpC-g9-pKJ.ibShadowedToolTip" = "指定NVRAM变量4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14:HW_BID的值.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "N0I-Qi-97B"; */
+"N0I-Qi-97B.title" = "Box";
 
 /* Class = "NSTextFieldCell"; title = "Location In Chassis"; ObjectID = "NKp-1W-cwW"; */
 "NKp-1W-cwW.title" = "Location In Chassis";
@@ -162,7 +165,7 @@
 "Oqy-j7-kv6.title" = "Manufacturer";
 
 /* Class = "NSButton"; ibShadowedToolTip = "Add or remove this section from plist\nDefault value: Add"; ObjectID = "PHO-4O-OIP"; */
-"PHO-4O-OIP.ibShadowedToolTip" = "从plist添加或删除此部分\n默认值：添加";
+"PHO-4O-OIP.ibShadowedToolTip" = "从plist添加或删除此部分\n默认值:添加";
 
 /* Class = "NSSegmentedCell"; PVt-qS-yBp.ibShadowedLabels[0] = "Model Lookup"; ObjectID = "PVt-qS-yBp"; */
 "PVt-qS-yBp.ibShadowedLabels[0]" = "机型查询";
@@ -315,7 +318,7 @@
 "gqH-S3-VMd.ibShadowedToolTip" = "默认值:OEM指定\nSMBIOS:系统信息（类型1） - 制造商\n说明:特定电路板的OEM制造商。除非严格要求，否则不得指定。不应包含Apple Inc.，因为这会混淆操作系统中存在的大量服务，例如固件更新，eficheck，以及Acidanthera中开发的内核扩展，例如Lilu及其插件。";
 
 /* Class = "NSButtonCell"; title = "SpoofVendor"; ObjectID = "gyz-Gt-IQK"; */
-"gyz-Gt-IQK.title" = "SpoofVendor";
+"gyz-Gt-IQK.title" = "SpoofVendor\n仿冒主板厂商";
 
 /* Class = "NSTextFieldCell"; title = "Manufacturer"; ObjectID = "gzt-RV-VqZ"; */
 "gzt-RV-VqZ.title" = "Manufacturer";

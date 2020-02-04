@@ -24,11 +24,11 @@
 - [x] USB3.1 & USB3.0 & USB2.0
 - [x] WIFI 和 蓝牙
 - [x] 电量精准显示
-- [x] 触控板 (手势全部可用, 但是有问题)
+- [x] 触控板 (无法中断, 轮询模式优点问题, 自备鼠标)
 - [x] 触控板禁用和启用 (prt sc键)
 - [x] 睡眠和唤醒
 - [x] 屏幕亮度调节
-- [x] 键盘灯亮度调节 (10.15下不完美, 等驱动更新)
+- [x] 键盘灯亮度调节 (10.14下和白果一样, 10.15下不完美)
 - [x] Fn按键正常
 - [x] 定位正常
 - [x] 已经仿冒自动亮度
@@ -103,6 +103,12 @@
 <img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
 
 ## 更新日志
+* V1.2.1
+
+    * 新增 USBPower.kext 增加 USB 电源的白果功能
+    * 修复 OpenCore 引导无法引导 Windows
+    * 更新 Clover 引导同步 OpenCore 的热补丁和驱动列表
+
 * V1.2.0
 
     * 新增 OpenCore 引导程序
