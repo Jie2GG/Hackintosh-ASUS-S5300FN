@@ -103,6 +103,13 @@
 <img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
 
 ## 更新日志
+* V1.3.0
+
+    * 升级 OpenCore 0.5.6
+    * 新增 屏蔽独显补丁, 对独显断电处理. 提升续航
+    * 新增 NVMeFix 驱动, 优化 NVMe 耗电
+    * 删除 SSDT-EC.aml, 启用机器原有的 EC0
+
 * V1.2.1
 
     * 新增 USBPower.kext 增加 USB 电源的白果功能
