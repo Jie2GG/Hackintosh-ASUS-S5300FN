@@ -20,14 +20,6 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
 			</dict>
 			<dict>
@@ -93,6 +85,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-UIAC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-Disable-DGPU.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -270,6 +270,110 @@
 				<key>TableSignature</key>
 				<data>RFNEVA==</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>EC0 to EC</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUMwXw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>RUNfXw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RFNEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>EC0 to EC</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUMwXw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>RHB0ZlRhYmw=</data>
+				<key>Replace</key>
+				<data>RUNfXw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>U1NEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>EC0 to EC</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUMwXw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>T3B0VGFibA==</data>
+				<key>Replace</key>
+				<data>RUNfXw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>U1NEVA==</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>EC0 to EC</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUMwXw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data>U2dScFNzZHQ=</data>
+				<key>Replace</key>
+				<data>RUNfXw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>U1NEVA==</data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -373,9 +477,9 @@
 				<key>device_type</key>
 				<string>Airport</string>
 				<key>model</key>
-				<string>Broadcom Dual Band Wireless</string>
+				<string>BCM4350 802.11ac Wireless Network Adapter</string>
 				<key>name</key>
-				<string>DW1820A (BCM94350ZEN) 802.11ac Wireless</string>
+				<string>Airport</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1d,0x4)/Pci(0x0,0x0)</key>
 			<dict>
@@ -409,16 +513,20 @@
 				<data>CQClPg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Built-In</string>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAw5GMFAAAAAAAcAQSlIhN4AjjVl15ZjiccUFQAAAABAQEBAQEBAQEBAQEBAQEBJDaAoHA4H0AwIDUAWMIQAAAZAAAAAAAAAAAAAAAAAAAAAAAAAAAA/gBMRyBEaXNwbGF5CiAgAAAA/gBMUDE1NldGQy1TUEQxAMA=</data>
 				<key>device-id</key>
 				<data>pT4AAA==</data>
 				<key>device_type</key>
 				<string>VGA Compatible Controller</string>
-				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>enable-lspcon-support</key>
 				<data>AQAAAA==</data>
+				<key>framebuffer-con0-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con0-type</key>
+				<data>AAQAAA==</data>
 				<key>framebuffer-cursormem</key>
 				<data>AAAAAw==</data>
 				<key>framebuffer-fbmem</key>
@@ -572,13 +680,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
+				<string>AsusSMC.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
+				<string>Contents/MacOS/AsusSMC</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -588,13 +696,13 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>AsusSMC.kext</string>
+				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AsusSMC</string>
+				<string>Contents/MacOS/AirportBrcmFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -874,6 +982,22 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1024,9 +1148,9 @@
 			<key>AllowSetDefault</key>
 			<true/>
 			<key>AuthRestart</key>
-			<false/>
+			<true/>
 			<key>ExposeSensitiveData</key>
-			<integer>3</integer>
+			<integer>11</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
 			<key>RequireSignature</key>
@@ -1076,7 +1200,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>dart=0 applbkl=1 brcmfx-country=#a -brcmfxwowl</string>
+				<string>applbkl=1 brcmfx-country=#a -brcmfxwowl</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1134,12 +1258,18 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>MLB</key>
+			<string>FVF904600J90000CB</string>
 			<key>ROM</key>
-			<data></data>
+			<data>96UviMOm</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
+			<key>SystemSerialNumber</key>
+			<string>FVFY5DYML40Y</string>
+			<key>SystemUUID</key>
+			<string>3FFBB75D-5DD6-4F9E-8686-D3F39D88C3A6</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1210,8 +1340,6 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
-			<key>AvoidHighAlloc</key>
-			<false/>
 			<key>ClearScreenOnModeSwitch</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
