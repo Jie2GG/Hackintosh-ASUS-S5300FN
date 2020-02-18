@@ -1258,18 +1258,12 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>MLB</key>
-			<string>FVF904600J90000CB</string>
 			<key>ROM</key>
-			<data>96UviMOm</data>
+			<data></data>
 			<key>SpoofVendor</key>
-			<true/>
+			<false/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,4</string>
-			<key>SystemSerialNumber</key>
-			<string>FVFY5DYML40Y</string>
-			<key>SystemUUID</key>
-			<string>3FFBB75D-5DD6-4F9E-8686-D3F39D88C3A6</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
