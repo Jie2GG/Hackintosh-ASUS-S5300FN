@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/Base.lproj/Document.nib</key>
 		<data>
-		9dEG5ExZffjHd6YHsDtSwhzRii0=
+		07wu1MpdTOOSSU+rRkoefwlNgDY=
 		</data>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Resources/Base.lproj/bdmesg.nib</key>
 		<data>
-		fQf0BGi8x+yhdaOvIXDfviek54g=
+		u/3J7cwMl1fXIfXj8FT7545p8OU=
 		</data>
 		<key>Resources/Base.lproj/booterController.nib</key>
 		<data>
-		hMua/YzPNELs8dHt4rJwDXJ1KVM=
+		u7ZIt8VseTyDArQyueuYnf09qHU=
 		</data>
 		<key>Resources/Base.lproj/devicePropertiesController.nib</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Resources/Base.lproj/installDrivers.nib</key>
 		<data>
-		XS5S/jsHFELvHy3Nhx1D5BgoGqk=
+		WrxfkJU7UWOnlbzPpXL4FRjs4Ew=
 		</data>
 		<key>Resources/Base.lproj/kernelController.nib</key>
 		<data>
@@ -50,19 +50,19 @@
 		</data>
 		<key>Resources/Base.lproj/kextsInstaller.nib</key>
 		<data>
-		5+aSu3SnPdBs4nuDrfk21SrO6Nc=
+		gSG0HFiMDIGQwi6Q/B1p6N2fGtI=
 		</data>
 		<key>Resources/Base.lproj/miscController.nib</key>
 		<data>
-		PVvpRNEACFLWLYBBgQgah/8UEKs=
+		OuZ30IpxyXGPW3ma1zX9cYG11EE=
 		</data>
 		<key>Resources/Base.lproj/mountefi.nib</key>
 		<data>
-		HrSBBrU6FVPhqyymz3ZbZ/KDi9U=
+		DfKsVbtkJpvpo89zp5eKzzouEvE=
 		</data>
 		<key>Resources/Base.lproj/nvramController.nib</key>
 		<data>
-		nG3EdbXaz4isIMxwqOyaWqh4gUI=
+		NurinB8mVjvtFTrs087IZjwI024=
 		</data>
 		<key>Resources/Base.lproj/opencoreDownloader.nib</key>
 		<data>
@@ -74,11 +74,11 @@
 		</data>
 		<key>Resources/Base.lproj/scanConfig.nib</key>
 		<data>
-		LfoSebStPQVUqbZPlqUrOHIsCQw=
+		WkdyiHa23x3lLgeNi8ficLwNR/w=
 		</data>
 		<key>Resources/Base.lproj/uefiController.nib</key>
 		<data>
-		NhjIQ7EwuHbfFFq4PNRJ6pQ7zQ4=
+		I191EFEqkyOtNlWd2DOctsZY2Q8=
 		</data>
 		<key>Resources/Credits.rtf</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Resources/database.mom</key>
 		<data>
-		xXkuaJWDU60Uc+9xkZC+X5tM+Kw=
+		VhMyHsgTJlQ8jv7O5kO7ZaVC4g0=
 		</data>
 		<key>Resources/en.lproj/AFNetworking.strings</key>
 		<dict>
@@ -168,7 +168,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PZkQJkTbzq9b7swk3F+wnWfFj7Y=
+			LY3f8Cey00hgr+jqSC6egY9JxH4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -231,7 +231,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jlfaPQVua+WXGghEKGMIK9COdss=
+			cjaBghY286JZrj+JkP7XYsUsMzI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -249,7 +249,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qj6rCIMK8UGiboWLrepkYy8zcYs=
+			HJPz2fcz4ryG28A2IJgyYhhQYZ0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -285,7 +285,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KRlKAYXGEDyzrWCNMVgfxOaskt4=
+			z98YahTxz8Y+pVb1SR1rf8B9RRw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -374,7 +374,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ade/Pm9sgRQdNI00A9tgwA1wrdU=
+			H4L2mgAP56Pe+O+Y1/jYWWbQ+UE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -419,7 +419,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y+pq7/Sl5nt0lMFeYvx+fqpM69s=
+			bIelxMMUAAFyhCWS3bFMDBggj2g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -437,7 +437,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HrrbGTC93Cm5IEmsZZ3W4D97fIY=
+			GNFhXC0dqF6G30qnVZtzPtoJgR4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -455,7 +455,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VkbJyEUF7BVlA8B2Xdrar5Bf37c=
+			6Zhbb74t2b/9imFmYS8RkifI7HY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -491,7 +491,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fT5KRU1b24j5b2v2rNn8A/xAM9o=
+			EemVXO+E301RlDVdrwuxDe/wjJU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -595,11 +595,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9dEG5ExZffjHd6YHsDtSwhzRii0=
+			07wu1MpdTOOSSU+rRkoefwlNgDY=
 			</data>
 			<key>hash2</key>
 			<data>
-			G9N5H4Y3pLvc6LCUuMT90zfRu0O1bO5bIivVKPnOzyw=
+			WMTLm69OlvE5p8Vl19vydotsShBP0B+C5HfcOenVXeY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/MainMenu.nib</key>
@@ -628,22 +628,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fQf0BGi8x+yhdaOvIXDfviek54g=
+			u/3J7cwMl1fXIfXj8FT7545p8OU=
 			</data>
 			<key>hash2</key>
 			<data>
-			3uQNBVQ1niouCI2z+h4YDbcAqUairjyKy4oYTwvOPgE=
+			Qm7z2gv4VlWt2Opv6VJ5s534uTn2C5h1OsSp0WKfGXg=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/booterController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hMua/YzPNELs8dHt4rJwDXJ1KVM=
+			u7ZIt8VseTyDArQyueuYnf09qHU=
 			</data>
 			<key>hash2</key>
 			<data>
-			DyEOG/7XPhwwVxxxRgALtKtJRsCpeA1N67CHUgQa/XI=
+			X5Xg3jVe6XR+aHHgzJt0KIUZ9lrGtvA7PKNqqjxxgWI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/devicePropertiesController.nib</key>
@@ -683,11 +683,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			XS5S/jsHFELvHy3Nhx1D5BgoGqk=
+			WrxfkJU7UWOnlbzPpXL4FRjs4Ew=
 			</data>
 			<key>hash2</key>
 			<data>
-			lJVxt0IB1SEqQW6ShJQWTfQHEkIUSUz5l9PRdUdrdmY=
+			ELE1YaTuRFE6/f5IvC5OzHBnLnE/ydvN+8hJRFbEZiY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/kernelController.nib</key>
@@ -705,44 +705,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5+aSu3SnPdBs4nuDrfk21SrO6Nc=
+			gSG0HFiMDIGQwi6Q/B1p6N2fGtI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q0GFEsn2DBxeUZE+B7vk2LKjUD1a4vNaKXEdv5spBe8=
+			n0Z151tD9Tv2iRA3v8zKKlB4yNVB+LWh1kIG970eqXo=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/miscController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PVvpRNEACFLWLYBBgQgah/8UEKs=
+			OuZ30IpxyXGPW3ma1zX9cYG11EE=
 			</data>
 			<key>hash2</key>
 			<data>
-			UZ27TKfT9b79gCOzCd1Hn8N4zf78zz0GxAHuK3DSALo=
+			ZBRSyfs8qEyZl+lF4xaZLLYqn4gI6SzJeDtzpyhVNcw=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/mountefi.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HrSBBrU6FVPhqyymz3ZbZ/KDi9U=
+			DfKsVbtkJpvpo89zp5eKzzouEvE=
 			</data>
 			<key>hash2</key>
 			<data>
-			agRUVNt7YBImQ+d2b9HdA4k4eZqLcWaDuunSxZrqiSw=
+			8FSPsazNqA8uO7rby/D5/5aoOCqv7uT6x8nmyLC6L9A=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/nvramController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nG3EdbXaz4isIMxwqOyaWqh4gUI=
+			NurinB8mVjvtFTrs087IZjwI024=
 			</data>
 			<key>hash2</key>
 			<data>
-			7nuQhLqmQAl0VqxG/htSqXnN1ZQ9+zyKvNuMbEq/uac=
+			3eLOB2EyL8z46SSZ5PjbJzrQX7I0jOcX50oS0xgeWp8=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/opencoreDownloader.nib</key>
@@ -771,22 +771,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LfoSebStPQVUqbZPlqUrOHIsCQw=
+			WkdyiHa23x3lLgeNi8ficLwNR/w=
 			</data>
 			<key>hash2</key>
 			<data>
-			OEgvyijMxw3NkoIgS1cNrP7zCOYjURlgPGS2VpeTDf0=
+			m4BFTwtHq+Bbrn/fxtEJnEhX6wLWUkufrPhdOaP1IF0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/uefiController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NhjIQ7EwuHbfFFq4PNRJ6pQ7zQ4=
+			I191EFEqkyOtNlWd2DOctsZY2Q8=
 			</data>
 			<key>hash2</key>
 			<data>
-			brIvgV6sKbradU6DwZqCTd3XedjVTary3p2pM3WR7eA=
+			f2ndAjsPyLDiyrCa3sMW/DUB1GyEnwI3nDVg7akeE1o=
 			</data>
 		</dict>
 		<key>Resources/Credits.rtf</key>
@@ -815,11 +815,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xXkuaJWDU60Uc+9xkZC+X5tM+Kw=
+			VhMyHsgTJlQ8jv7O5kO7ZaVC4g0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Le484eUYv/RR2JEVQfnUWi7MggQ/sV3LdIyGDITbHX0=
+			oW/pP7qqdXrv940T0b5hyknmmIdRjhryo12LdSdmD7c=
 			</data>
 		</dict>
 		<key>Resources/en.lproj/AFNetworking.strings</key>
@@ -930,11 +930,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PZkQJkTbzq9b7swk3F+wnWfFj7Y=
+			LY3f8Cey00hgr+jqSC6egY9JxH4=
 			</data>
 			<key>hash2</key>
 			<data>
-			ugzeIleGmw0VRho5A8u1UeDq9wg6GGLIs5YEWgHsOvk=
+			OctwzzfkkpW09/z107sMjDdF7pgmsJ2irx4olx6gS58=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1021,11 +1021,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jlfaPQVua+WXGghEKGMIK9COdss=
+			cjaBghY286JZrj+JkP7XYsUsMzI=
 			</data>
 			<key>hash2</key>
 			<data>
-			7sm2QVHoXKJ4iHJtzGqBY8891oG9w+p+efiblUD737A=
+			QPC1xDxkJa2WiFQxMKPcr8NFK+1JnfSN4LI8H4D59aY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1047,11 +1047,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qj6rCIMK8UGiboWLrepkYy8zcYs=
+			HJPz2fcz4ryG28A2IJgyYhhQYZ0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZGOT5Ep1SbrZbIL+0mUsLaFjTfLI09aMX7xEbvFZLQY=
+			jltGfo8lhTDTMp+WzL2WiAzOzBAlQL8OyqpuhGmtRN4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1099,11 +1099,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KRlKAYXGEDyzrWCNMVgfxOaskt4=
+			z98YahTxz8Y+pVb1SR1rf8B9RRw=
 			</data>
 			<key>hash2</key>
 			<data>
-			CZYgvPvpE870ROQtTY+B6MCQE7R1BA7kLLFF5FLYeZY=
+			hPxK/O9fneNXOaTr24azQfyKeuwErrb3MkdLlUJXviY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1238,11 +1238,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ade/Pm9sgRQdNI00A9tgwA1wrdU=
+			H4L2mgAP56Pe+O+Y1/jYWWbQ+UE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q2FTeDOD3rSHs/vA/gIXpe2+niP/JtSODOtzoXMq8pA=
+			z12+kPQiPKxdOBzcpNcj+r6PkacVtVvfECqbCAuLI1k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1303,11 +1303,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			y+pq7/Sl5nt0lMFeYvx+fqpM69s=
+			bIelxMMUAAFyhCWS3bFMDBggj2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			p0iqPcSOshU2pZStSIgtoK4qz0f24i9TBz60gKnjTd4=
+			vW8FYDcn5F2NBFEUBVV1qffmyjVkSKvnI8Imfp6P+OU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1329,11 +1329,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HrrbGTC93Cm5IEmsZZ3W4D97fIY=
+			GNFhXC0dqF6G30qnVZtzPtoJgR4=
 			</data>
 			<key>hash2</key>
 			<data>
-			NlCgmhstlaqm+r87V9fLp2wxMTZllOD5aUjrVIFBQX4=
+			zpR4CVuhqbOv2YGXu44WNr4KeO+J7QV38X9xOz1F56w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1355,11 +1355,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VkbJyEUF7BVlA8B2Xdrar5Bf37c=
+			6Zhbb74t2b/9imFmYS8RkifI7HY=
 			</data>
 			<key>hash2</key>
 			<data>
-			gdbqV4aL2yAV/xSnJrcEWbIKhucD4gnF5gsPU6at/Fg=
+			ZpfVIHABv6c7cMtfnaAq2e+ouMtpeafGKMFh3T6bDTA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1407,11 +1407,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fT5KRU1b24j5b2v2rNn8A/xAM9o=
+			EemVXO+E301RlDVdrwuxDe/wjJU=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmnlfS1lduh7NSvKEjzf2tJWBSpiOxGCNyQZp82+hFA=
+			fXkUA7fcOkgbRkKYpFKdaQTFXkbRReqnefsen6oNxuQ=
 			</data>
 			<key>optional</key>
 			<true/>
