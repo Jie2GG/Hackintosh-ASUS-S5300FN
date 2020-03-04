@@ -20,7 +20,9 @@
 
 - [x] CPU睿频
 - [x] 显卡硬件加速 (QE/CI)
+- [x] HDMI输出
 - [x] 音频完美 (AppleALC + CodecCommander + Layout: 21)
+- [x] HDMI音频输出
 - [x] USB3.1 & USB3.0 & USB2.0
 - [x] WIFI 和 蓝牙
 - [x] 电量精准显示
@@ -33,10 +35,6 @@
 - [x] 定位正常
 - [x] 已经仿冒自动亮度
 - [x] SD卡槽
-
-## 不正常工作的硬件
-
-- [ ] HDMI输出 (已找到总线, 但是黑屏, 等待修复)
 
 ## 能工作的更好的硬件
 
@@ -103,6 +101,10 @@
 <img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
 
 ## 更新日志
+* V1.3.1
+
+    * 修正 HDMI 输出接口, 同时支持热拔插和音频输出 (OpenCore)
+
 * V1.3.0
 
     * 升级 OpenCore 0.5.6

@@ -188,7 +188,7 @@
 				<data>
 				</data>
 				<key>Skip</key>
-				<integer>0</integer>
+				<integer>6</integer>
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
@@ -470,11 +470,11 @@
 				</data>
 				<key>device_type</key>
 				<string>VGA Compatible Controller</string>
-				<key>enable-hdmi20</key>
+				<key>enable-hdmi-dividers-fix</key>
 				<data>
 				AQAAAA==
 				</data>
-				<key>enable-lspcon-support</key>
+				<key>enable-hdmi20</key>
 				<data>
 				AQAAAA==
 				</data>
@@ -485,6 +485,30 @@
 				<key>framebuffer-con0-type</key>
 				<data>
 				AAQAAA==
+				</data>
+				<key>framebuffer-con1-busid</key>
+				<data>
+				BAAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAQAAA==
+				</data>
+				<key>framebuffer-con2-busid</key>
+				<data>
+				AgAAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-cursormem</key>
 				<data>
@@ -502,16 +526,12 @@
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-portcount</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>framebuffer-unifiedmem</key>
 				<data>
 				AAAAgA==
 				</data>
 				<key>model</key>
-				<string>Intel(R) UHD Graphics 620</string>
+				<string>Intel UHD Graphics 620</string>
 				<key>name</key>
 				<string>Display Adapter</string>
 			</dict>
@@ -1298,8 +1318,8 @@
 		<dict>
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<array>
-				<string>UIScale</string>
 				<string>DefaultBackgroundColor</string>
+				<string>UIScale</string>
 			</array>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
@@ -1314,19 +1334,19 @@
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<array>
-				<string>EFILoginHiDPI</string>
 				<string>EFIBluetoothDelay</string>
+				<string>EFILoginHiDPI</string>
 				<string>LocationServicesEnabled</string>
 				<string>SystemAudioVolume</string>
 				<string>SystemAudioVolumeDB</string>
 				<string>bluetoothActiveControllerInfo</string>
 				<string>bluetoothInternalControllerInfo</string>
+				<string>efi-boot-device</string>
+				<string>efi-boot-device-data</string>
 				<string>flagstate</string>
 				<string>fmm-computer-name</string>
 				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
-				<string>efi-boot-device</string>
-				<string>efi-boot-device-data</string>
 			</array>
 			<key>8BE4DF61-93CA-11D2-AA0D-00E098032B8C</key>
 			<array>
@@ -1393,7 +1413,6 @@
 			<string>ApfsDriverLoader.efi</string>
 			<string>FwRuntimeServices.efi</string>
 			<string>HFSPlus.efi</string>
-			<string>AudioDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
@@ -1473,7 +1492,7 @@
 			<key>IgnoreInvalidFlexRatio</key>
 			<true/>
 			<key>ReleaseUsbOwnership</key>
-			<false/>
+			<true/>
 			<key>RequestBootVarFallback</key>
 			<false/>
 			<key>RequestBootVarRouting</key>
