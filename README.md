@@ -1,8 +1,8 @@
 # 华硕灵耀2代 Hackintosh 相关文件
 
-这是 **Asus S5300FN** 的相关文件, 这套配置我仅在 macOS Mojave 10.14.6 和 macOS Catalina 10.15.3 上测试通过, 完美度较高.
+这是 **Asus S5300FN** 的相关文件, 这套配置我仅在 macOS Mojave 10.14.6 和 macOS Catalina 10.15.4 上测试通过, 完美度较高.
 
-⚠️️️注意: 本项目提供的 EFI 不可用于其它机型, 直接覆盖可能会导致各种问题. 建议了解 **Clover** 、**OpenCore** 、 **黑苹果驱动** 、**DSDT和SSDT** 等相关知识后再使用. 安装教程在下面, 请仔细阅读后再自行操作! 
+⚠️️️注意: 本项目提供的 EFI 不可用于其它机型, 直接覆盖可能会导致各种问题. 建议了解 **OpenCore** 、 **黑苹果驱动** 、**DSDT和SSDT** 等相关知识后再使用. 安装教程在下面, 请仔细阅读后再自行操作! 
 
 ## 硬件配置
 
@@ -13,20 +13,21 @@
 |内存|镁光 16G x 2|我自行更换的
 |固态|WDC PC SN520 (512GB)
 |机械|WDC WD20SPZX-22CRAT0 (2TB)
-|网卡/蓝牙|BCM94350ZEN|原始网卡无解, 自行更换
-|显卡|Intel UHD Graphics 620
+|网卡|BCM94350ZEN (DW1820A)|原始网卡无解, 自行更换
+|显卡|Intel UHD Graphics 620|
+|触控板|ELAN1200|
 
 ## 正常工作的硬件
 
 - [x] CPU睿频
 - [x] 显卡硬件加速 (QE/CI)
 - [x] HDMI输出
-- [x] 音频完美 (AppleALC + CodecCommander + Layout: 21)
+- [x] 音频完美 (AppleALC + Layout: 21)
 - [x] HDMI音频输出
 - [x] USB3.1 & USB3.0 & USB2.0
 - [x] WIFI 和 蓝牙
 - [x] 电量精准显示
-- [x] 触控板 (无法中断, 轮询模式优点问题, 自备鼠标)
+- [x] 触控板
 - [x] 触控板禁用和启用 (prt sc键)
 - [x] 睡眠和唤醒
 - [x] 屏幕亮度调节
@@ -36,41 +37,6 @@
 - [x] 已经仿冒自动亮度
 - [x] SD卡槽
 
-## 能工作的更好的硬件
-
-* 开启HiDPI
-
-    推荐开启HiDPI让屏幕显示效果更好. 建议的分辨率: <br/>
-
-    > 使用脚本或修复工具自行添加
-
-    |实际分辨率|HiDPI分辨率|说明
-    :-:|:-:|:-:|
-    |3840 x 2160|1920 x 1080|屏幕原始分辨率, 不能解决模糊问题
-    |3360 x 1888|1680 x 944|在我的屏幕上, 睡眠唤醒顶部有一个白条, 但进桌面后正常
-    |3200 x 1800|1600 x 900|最佳分辨率, 不花屏, 睡眠唤醒完美
-    |2880 x 1620|1440 x 810|
-    |2560 x 1440|1280 x 720|
-
-    [一键开启HiDPI (xzhih)](https://github.com/xzhih/one-key-hidpi)
-    <br/>
-    [手动注入HiDPI (黑果小兵)](https://blog.daliansky.net/Use-HIDPI-to-solve-sleep-wake-up-black-screen,-Huaping-and-connect-the-external-monitor-the-correct-posture.html)
-
-    > 使用屏幕描述文件
-    
-        描述文件的分辨率如下表所示, 使用时请修改 "供应商ID" 和 "产品ID",
-        将文件修改后放入 "/System/Library/Displays/Contents/Resources/Overrides" 下重启即可
-
-    
-    |实际分辨率|HiDPI分辨率
-    :-:|:-:|
-    |3840 x 2160|1920 x 1080|
-    |3200 x 1800|1600 x 900|
-    |2880 x 1620|1440 x 810|
-    |2560 x 1440|1280 x 720|
-
-
-
 ## 关于键盘 Fn 按键的说明
 
 由于这个笔记本的键盘灯在 Windows 下只有一个按键调节, 所以在 macOS 下只能增加亮度, 所以我牺牲了 Fn+F6 (禁用触控板), 来实现降低键盘灯亮度. 所以 PrtSc 这个按键变成了禁用启用触控板的按键
@@ -78,20 +44,8 @@
 ## 安装教程 (简易版)
 
 1. 使用 etcher 将原版的镜像写入U盘
-2. 将 OpenCore 或 Clover 复制到 EFI 文件夹下
+2. 将 OpenCore 复制到 EFI 文件夹下
 3. 安装 macOS, 直至结束
-4. 将 "驱动程序" 中的两个 kext 放在桌面上, 运行以下命令激活触控板
-
-> 打开终端, 输入以下命令激活触控板
->
-> 1. ``cd Desktop``
-> 2. ``sudo chmod -Rf 755 VoodooI2C.kext``
-> 3. ``sudo chmod -Rf 755 VoodooI2CHID.kext``
-> 4. ``sudo chown -R root:wheel VoodooI2C.kext``
-> 5. ``sudo chown -R root:wheel VoodooI2CHID.kext``
-> 6. ``sudo kextutil VoodooI2CHID.kext -d VoodooI2C.kext``
->
-> 运行完毕后即可激活触控板, 若发现长按按键变点击, 可睡眠唤醒后恢复正常
 
 ## 捐赠
 
@@ -101,6 +55,16 @@
 <img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
 
 ## 更新日志
+* V1.4.0
+
+    * 新增 图形GUI, 开机时可以使用图形界面切换磁盘
+    * 新增 开机 Duang 音效
+    * 优化 核心显卡的 FrameBuffer, 现在支持输出 4K/50Hz 的分辨率 (HDMI 1.4)
+    * 更新 VoodooI2C 驱动到 2.4.2 版本, 完美解决触控板问题
+    * 更新 OpenCore 版本到 0.5.7 正式版
+    * 更新 OpenCore 配置工具与当前 EFI 版本对应
+    * 移除 Clover 相关的 EFI
+
 * V1.3.1
 
     * 修正 HDMI 输出接口, 同时支持热拔插和音频输出 (OpenCore)
