@@ -1,3 +1,6 @@
+
+[简体中文](README.md)|[English](README_en.md)
+
 # 华硕灵耀2代 Hackintosh 相关文件
 
 这是 **Asus S5300FN** 的相关文件, 这套配置我仅在 macOS Mojave 10.14.6 和 macOS Catalina 10.15.4 上测试通过, 完美度较高.
