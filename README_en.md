@@ -1,3 +1,6 @@
+
+[简体中文](README.md)|[English](README_en.md)
+
 # ASUS VivoBook 2 Hackintosh related documents
 
 This is **Asus S5300FN** related documents, This configuration I only in macOS Mojave 10.14.6 and macOS Catalina 10.15.4 in test pass, perfection degree high.
