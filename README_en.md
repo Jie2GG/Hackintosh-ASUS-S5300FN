@@ -24,7 +24,7 @@ This is **Asus S5300FN** related documents, This configuration I only in macOS 1
 
 - [x] CPU Turbo Frequency
 - [x] GPU (QE/CI)
-- [x] HDMI Output
+- [x] HDMI Output (Can’t macOS 11.0 output 4K/50Hz)
 - [x] Aodio (AppleALC + Layout:21)
 - [x] USB3.1 & USB3.0 & USB2.0
 - [x] WIFI & Bluetooth
@@ -38,6 +38,7 @@ This is **Asus S5300FN** related documents, This configuration I only in macOS 1
 - [x] Positioning Normal
 - [x] Fake auto brightness
 - [x] SD Card
+- [x] Fan Sensor
 
 ## About keyboard Fn Key
 
