@@ -46,7 +46,7 @@ This is **Asus S5300FN** related documents, This configuration I only in macOS 1
 
 ## About keyboard Fn Key
 
-Due to the laptop keyboard light in Windows only one key adjust. So in macOS use Fn+F6 implementaion reduce the brightness. So Prtsc key use Enable & Disable Touchpad
+Due to the laptop keyboard light in Windows only one key adjust. So in macOS use Fn+F6 implementaion reduce the brightness. 
 
 ## Installation tutorial (Simple)
 
