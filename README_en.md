@@ -3,7 +3,7 @@
 
 # ASUS VivoBook S5300FN Hackintosh related documents
 
-This is **Asus S5300FN** related documents, This configuration I only in macOS 10.13 - macOS 11.0 in test pass, perfection degree high.
+This is **Asus S5300FN** related documents, This configuration I only in macOS 10.13 - macOS 11.4 in test pass, perfection degree high.
 
 ⚠️️️Attention: EFI provided in this project cannot be used for other laptop, Direct use can cause a variety of problems. Please understand OpenCore、macOS Kext and ACPI use of relevant knowledge. The installation tutorial is below, please read carefully befor you operate by youerself!
 
@@ -22,9 +22,9 @@ This is **Asus S5300FN** related documents, This configuration I only in macOS 1
 
 ## Normal workings Hardware
 
-- [x] CPU Turbo Frequency
+- [x] CPU Turbo Frequency (There are some problems with frequency conversion)
 - [x] GPU (QE/CI)
-- [x] HDMI Output (Can’t macOS 11.0 output 4K/50Hz)
+- [x] HDMI Output (output 4K/50Hz)
 - [x] Aodio (AppleALC + Layout:21)
 - [x] USB3.1 & USB3.0 & USB2.0
 - [x] WIFI & Bluetooth
@@ -38,15 +38,16 @@ This is **Asus S5300FN** related documents, This configuration I only in macOS 1
 - [x] Positioning Normal
 - [x] Fake auto brightness
 - [x] SD Card
-- [x] Fan Sensor
+- [x] Optimized fan strategy
+
+## Not workings Hardware
+
+- [ ] Fan Sensor
+- [ ] Independent GPU
 
 ## About keyboard Fn Key
 
 Due to the laptop keyboard light in Windows only one key adjust. So in macOS use Fn+F6 implementaion reduce the brightness. So Prtsc key use Enable & Disable Touchpad
-
-## About macOS 11.0 issues
-
-Because macOS 11.0 is not yet fully supported by the driver, the 4K/50Hz resolution cannot be used when the HDMI interface is connected to the 4K screen.
 
 ## Installation tutorial (Simple)
 
@@ -58,5 +59,5 @@ Because macOS 11.0 is not yet fully supported by the driver, the 4K/50Hz resolut
 
 Your support is my power of maintenance
 <br/>
-<img src="https://raw.githubusercontent.com/Jie2GG/Image/master/WeChat.png" width="260" height="350" alt="微信二维码"/>
-<img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="支付宝二维码"/>
+<img src="https://raw.githubusercontent.com/Jie2GG/Image/master/WeChat.png" width="260" height="350" alt="WeChatPay QRCode"/>
+<img src="https://raw.githubusercontent.com/Jie2GG/Image/master/AliPlay.png" width="260" height="350" alt="AliPay QRCode"/>
