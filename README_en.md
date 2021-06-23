@@ -30,7 +30,6 @@ This is **Asus S5300FN** related documents, This configuration I only in macOS 1
 - [x] WIFI & Bluetooth
 - [x] Battery
 - [x] TouchPad
-- [x] TouchPad Enable & Disable (Prtsc Button)
 - [x] Sleep and Wake up
 - [x] Screen light
 - [x] Keyboard light
