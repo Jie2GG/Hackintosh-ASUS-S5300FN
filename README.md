@@ -78,7 +78,7 @@
 2. 准备一个可引导的 USB 驱动器，引导方式: UEFI
 3. 打开 USB 驱动器的 EFI 分区，将 RU.efi 放入 EFI/BOOT，并将 RU.efi 改为 BOOTx64.efi
 4. 引导 USB 驱动器启动。如果成功你将看到这个画面
-<img src="https://drive.google.com/file/d/1KDflaD-O98kQPFtrpUpA4YQVRwVnwMJB/view">
+<img src="https://raw.githubusercontent.com/Jie2GG/Hackintosh-ASUS-S5300FN/master/Images/01.jpeg">
 ---
 
 ## 安装教程 (简易版)
