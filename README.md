@@ -25,7 +25,7 @@
 |内存|镁光 16G x 2|我自行更换的
 |固态|WDC PC SN520 (512GB)
 |机械|WDC WD20SPZX-22CRAT0 (2TB)
-|网卡|BCM94350ZEN (DW1820A)|原始网卡无解, 自行更换
+|网卡|BCM94360CS2(Apple网卡)|原始网卡无解, 自行更换
 |显卡|Intel UHD Graphics 620|
 |触控板|ELAN1200|
 
@@ -73,15 +73,21 @@
 3. 解锁之前需明确自己机器 BIOS 的 CFG Lock 的**偏移量**，若不清楚请参考<a href='https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#turning-off-cfg-lock-manually'>寻找 CFG Lock 偏移量</a>
 4. 按照我的教程修改，需要使用我提供的原版 BIOS 升级
 
-二、修改教程
+修改教程
 1. 将 BIOS 升级到 X530FNS.308 版本
 2. 准备一个可引导的 USB 驱动器，引导方式: UEFI
 3. 打开 USB 驱动器的 EFI 分区，将 RU.efi 放入 EFI/BOOT，并将 RU.efi 改为 BOOTx64.efi
-4. 引导 USB 驱动器启动。如果成功你将看到这个画面
+4. 引导 USB 驱动器启动。如果成功你将看到类似这个画面
 <img src="https://raw.githubusercontent.com/Jie2GG/Hackintosh-ASUS-S5300FN/master/Images/01.jpeg">
 5. 按下 "Enter" 键
-6. 按下 "Alt" + "=" 组合键。如果成功你将看到这个画面
+6. 按下 "Alt" + "=" 组合键。如果成功你将看到类似这个画面
 <img src="https://raw.githubusercontent.com/Jie2GG/Hackintosh-ASUS-S5300FN/master/Images/02.jpeg">
+7. 使用方向键，寻找 "Setup" 项（正常情况下将得到两个 Setup 项），找到数据最多的那一项，按下 "Enter" 键进入变量编辑屏幕。如果成功你将看到类似这个画面
+<img src="https://raw.githubusercontent.com/Jie2GG/Hackintosh-ASUS-S5300FN/master/Images/03.jpeg">
+8. 使用方向键，定位到 (006F, 00) 位置，此时这个位置的值应为 01
+9. 按下 "Enter" 键，将值改为 00，修改完毕后按下 "Enter" 键。
+10. 按下 "Ctrl" + "W" 组合键，保存修改。
+11. 按下 "Alt" + "Q" 组合键，退出工具，随后关闭计算机(不是重启计算机) 
 ---
 
 ## 安装教程 (简易版)
