@@ -3,7 +3,7 @@
 
 # ASUS VivoBook S5300FN Hackintosh related documents
 
-This is **Asus S5300FN** related documents, This configuration I only in macOS 10.13 - macOS 11.4 in test pass, perfection degree high.
+This is **Asus S5300FN** related documents, This configuration I only in macOS 10.13 - macOS 12.2 in test pass, perfection degree high.
 
 ⚠️️️Attention: EFI provided in this project cannot be used for other laptop, Direct use can cause a variety of problems. Please understand OpenCore、macOS Kext and ACPI use of relevant knowledge. The installation tutorial is below, please read carefully befor you operate by youerself!
 
